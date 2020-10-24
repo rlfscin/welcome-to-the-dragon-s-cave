@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Welcome to the dragon's cave.440601209.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Fonts" t="Include">
+          <e p="OFL.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Caches" t="Include">
+            <e p="CacheCollection.cs" t="Include" />
+            <e p="PlayerCache.cs" t="Include" />
+          </e>
+          <e p="Card" t="Include">
+            <e p="Card.cs" t="Include" />
+            <e p="CardFactory" t="Include">
+              <e p="CardFactory.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Character" t="Include">
+            <e p="Character.cs" t="Include" />
+            <e p="CharacterFactory.cs" t="Include" />
+          </e>
+          <e p="Consts" t="Include">
+            <e p="CharacterType.cs" t="Include" />
+          </e>
+          <e p="GameInitializer.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Welcome to the dragon's cave.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
