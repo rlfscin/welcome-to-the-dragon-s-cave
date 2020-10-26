@@ -61,9 +61,12 @@
      <Compile Include="Assets\Scripts\Caches\CacheCollection.cs" />
      <Compile Include="Assets\Scripts\Caches\PlayerCache.cs" />
      <Compile Include="Assets\Scripts\Card\Card.cs" />
-     <Compile Include="Assets\Scripts\Card\CardFactory\CardFactory.cs" />
+     <Compile Include="Assets\Scripts\Card\CardConfigObject.cs" />
+     <Compile Include="Assets\Scripts\Card\CardFactory.cs" />
+     <Compile Include="Assets\Scripts\Card\CardsContainer.cs" />
      <Compile Include="Assets\Scripts\Character\Character.cs" />
      <Compile Include="Assets\Scripts\Character\CharacterFactory.cs" />
+     <Compile Include="Assets\Scripts\Consts\CardType.cs" />
      <Compile Include="Assets\Scripts\Consts\CharacterType.cs" />
      <Compile Include="Assets\Scripts\GameInitializer.cs" />
      <None Include="Assets\Fonts\OFL.txt" />

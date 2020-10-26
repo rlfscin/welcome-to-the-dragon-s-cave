@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eda0952e62349fcb75cdbf9b8e79793, type: 3}
+  m_Name: CardConfigObject
+  m_EditorClassIdentifier: 
+  CardAssetList:
+  - Name: tocha
+    Description: Default monster equal 3 power of less.
+    Special: {fileID: 21300000, guid: c35f2a3530f104ca4982a324313fcb82, type: 3}
+    Cover: {fileID: 21300000, guid: e7ad6f1dffa0b43cdbe2e919a71e9002, type: 3}
+    Background: {fileID: 21300000, guid: 17928510bb5fe46eaadd13148cf2f0dd, type: 3}
+    CardType: 1

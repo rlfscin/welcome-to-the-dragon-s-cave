@@ -16,15 +16,16 @@
           </e>
           <e p="Card" t="Include">
             <e p="Card.cs" t="Include" />
-            <e p="CardFactory" t="Include">
-              <e p="CardFactory.cs" t="Include" />
-            </e>
+            <e p="CardConfigObject.cs" t="Include" />
+            <e p="CardFactory.cs" t="Include" />
+            <e p="CardsContainer.cs" t="Include" />
           </e>
           <e p="Character" t="Include">
             <e p="Character.cs" t="Include" />
             <e p="CharacterFactory.cs" t="Include" />
           </e>
           <e p="Consts" t="Include">
+            <e p="CardType.cs" t="Include" />
             <e p="CharacterType.cs" t="Include" />
           </e>
           <e p="GameInitializer.cs" t="Include" />
