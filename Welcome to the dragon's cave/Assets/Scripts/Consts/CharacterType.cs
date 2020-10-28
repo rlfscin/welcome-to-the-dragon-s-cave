@@ -1,7 +1,4 @@
-namespace Consts
+public enum CharacterType
 {
-    public enum CharacterType
-    {
-        Warrior = 1
-    }
+    Warrior = 1
 }

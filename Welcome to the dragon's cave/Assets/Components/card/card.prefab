@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 7041835876405451002}
   - component: {fileID: 4766014129856241208}
   m_Layer: 5
-  m_Name: effect
+  m_Name: special
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 2132507347056641402}
   - component: {fileID: 1398619247386987377}
   - component: {fileID: 4918952667622977412}
+  - component: {fileID: 3364499137504832483}
   m_Layer: 5
   m_Name: bg
   m_TagString: Untagged
@@ -290,7 +291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17928510bb5fe46eaadd13148cf2f0dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -300,6 +301,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3364499137504832483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2477246582129942607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2958462088205249219
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,8 +852,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3551843170497377052}
   - component: {fileID: 4589279714799497420}
+  - component: {fileID: 6777319155635824661}
   m_Layer: 5
-  m_Name: card
+  m_Name: Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -874,3 +891,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9118100427069761671}
   m_CullTransparentMesh: 0
+--- !u!114 &6777319155635824661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9118100427069761671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d51fb2993041d58799dd14e309f884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Background: {fileID: 4918952667622977412}
+  Special: {fileID: 4766014129856241208}
+  Cover: {fileID: 7258281480048267144}
+  Name: {fileID: 6047464364644924595}
+  Description: {fileID: 5193185745881934245}

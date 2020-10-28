@@ -15,10 +15,10 @@
             <e p="PlayerCache.cs" t="Include" />
           </e>
           <e p="Card" t="Include">
-            <e p="Card.cs" t="Include" />
+            <e p="CardCell.cs" t="Include" />
             <e p="CardConfigObject.cs" t="Include" />
+            <e p="CardContainer.cs" t="Include" />
             <e p="CardFactory.cs" t="Include" />
-            <e p="CardsContainer.cs" t="Include" />
           </e>
           <e p="Character" t="Include">
             <e p="Character.cs" t="Include" />

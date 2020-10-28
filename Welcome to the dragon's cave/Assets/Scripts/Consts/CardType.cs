@@ -1,7 +1,5 @@
-namespace Consts
+public enum CardType
 {
-    public enum CardType
-    {
-        WarriorTouch = 1,
-    }
+    WarriorTouch = 1,
+    WarriorShield = 2,
 }

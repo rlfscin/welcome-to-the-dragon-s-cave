@@ -1,12 +1,9 @@
-namespace Caches
+public class CacheCollection
 {
-    public class CacheCollection
-    {
-        public readonly PlayerCache PlayerCache;
+    public readonly PlayerCache PlayerCache;
 
-        public CacheCollection(PlayerCache playerCache)
-        {
-            PlayerCache = playerCache;
-        }
+    public CacheCollection(PlayerCache playerCache)
+    {
+        PlayerCache = playerCache;
     }
 }

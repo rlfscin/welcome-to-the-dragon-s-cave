@@ -1,13 +1,10 @@
-namespace Caches
+public class PlayerCache
 {
-    public class PlayerCache
+    public Character ActiveCharacter;
+    
+    public PlayerCache()
     {
-        public Character.Character ActiveCharacter;
-        
-        public PlayerCache()
-        {
-            
-        }
         
     }
+    
 }

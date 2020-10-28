@@ -612,6 +612,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1577142122972504998, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectDistance.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3789806048663611241, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -781,6 +786,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectDistance.x
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectDistance.y
+      value: 12.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_UseGraphicAlpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626779455297729451, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
+        type: 3}
+      propertyPath: m_EffectColor.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6187854940577139963, guid: d8da34d9fd03a4594b0d3b1c92107f1b,
         type: 3}
