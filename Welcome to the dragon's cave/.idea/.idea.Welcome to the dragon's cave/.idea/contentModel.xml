@@ -28,7 +28,14 @@
             <e p="CardType.cs" t="Include" />
             <e p="CharacterType.cs" t="Include" />
           </e>
+          <e p="Factories" t="Include">
+            <e p="ViewControllerFactory.cs" t="Include" />
+          </e>
           <e p="GameInitializer.cs" t="Include" />
+          <e p="GamePlay" t="Include">
+            <e p="GamePlayView.cs" t="Include" />
+            <e p="GamePlayViewController.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

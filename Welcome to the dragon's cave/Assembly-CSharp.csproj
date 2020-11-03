@@ -68,7 +68,10 @@
      <Compile Include="Assets\Scripts\Character\CharacterFactory.cs" />
      <Compile Include="Assets\Scripts\Consts\CardType.cs" />
      <Compile Include="Assets\Scripts\Consts\CharacterType.cs" />
+     <Compile Include="Assets\Scripts\Factories\ViewControllerFactory.cs" />
      <Compile Include="Assets\Scripts\GameInitializer.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GamePlayView.cs" />
+     <Compile Include="Assets\Scripts\GamePlay\GamePlayViewController.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/rubens.lopes/welcome-to-the-dragon-s-cave/Welcome to the dragon&apos;s cave/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

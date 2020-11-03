@@ -14,7 +14,7 @@ public class CardCell : MonoBehaviour
     public void Setup(CardAssetList cardAssetList)
     {
         Background.sprite = cardAssetList.Background;
-        
+        Special.sprite = cardAssetList.Special;
         Cover.sprite = cardAssetList.Cover;    
         Name.text = cardAssetList.Name;    
         Description.text = cardAssetList.Description;
