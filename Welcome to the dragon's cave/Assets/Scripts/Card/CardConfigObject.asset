@@ -14,7 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardAssetList:
   - Name: Torch
-    Description: Defeat monter with 3 power or less.
+    Description: Defeat monster with 3 power or less.
+    Special: {fileID: 21300000, guid: c35f2a3530f104ca4982a324313fcb82, type: 3}
+    Cover: {fileID: 21300000, guid: e7ad6f1dffa0b43cdbe2e919a71e9002, type: 3}
+    Background: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
+    CardType: 1
+    CharacterType: 1
+  - Name: Shield
+    Description: HP + 3
+    Special: {fileID: 0}
+    Cover: {fileID: 21300000, guid: 17770f87395674962b204ae5d28fcc8d, type: 3}
+    Background: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
+    CardType: 2
+    CharacterType: 1
+  - Name: Vorpal sward
+    Description: Defeat one Monster that you choose before entering the Cave
+    Special: {fileID: 0}
+    Cover: {fileID: 21300000, guid: bf55b1f23840742afacdce38f6a95a41, type: 3}
+    Background: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
+    CardType: 3
+    CharacterType: 1
+  - Name: Dragon Spear
+    Description: Defeat the Dragon
+    Special: {fileID: 21300000, guid: c35f2a3530f104ca4982a324313fcb82, type: 3}
+    Cover: {fileID: 21300000, guid: 5f40608223cfb407bb8c727c3e14a175, type: 3}
+    Background: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
+    CardType: 4
+    CharacterType: 1
+  - Name: Plate Armor
+    Description: HP + 5
+    Special: {fileID: 0}
+    Cover: {fileID: 21300000, guid: cb4d31f461a904a6d875a3aa38246b3c, type: 3}
+    Background: {fileID: 21300000, guid: 4393dafe40d924cec88c46c94fa7b8f9, type: 3}
+    CardType: 5
+    CharacterType: 1
+  - Name: Holy Grail
+    Description: Defeat monster with even-numbered strength.
     Special: {fileID: 21300000, guid: c35f2a3530f104ca4982a324313fcb82, type: 3}
     Cover: {fileID: 21300000, guid: e7ad6f1dffa0b43cdbe2e919a71e9002, type: 3}
     Background: {fileID: 21300000, guid: 17928510bb5fe46eaadd13148cf2f0dd, type: 3}
